@@ -6,7 +6,7 @@
 /*   By: tayamamo <tayamamo@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/10 11:43:52 by tayamamo          #+#    #+#             */
-/*   Updated: 2021/11/10 12:20:20 by tayamamo         ###   ########.fr       */
+/*   Updated: 2021/11/10 16:32:00 by tayamamo         ###   ########.fr       */
 /*   Copyright 2021                                                           */
 /* ************************************************************************** */
 
@@ -19,13 +19,15 @@
 class Zombie {
  public:
     Zombie(std::string name);
+    Zombie();
     ~Zombie();
 
     void announce(void) const;
+    std::string getName() const;
+    void setName(std::string name);
 
  private:
     std::string name_;
-    Zombie();
 };
 
 Zombie* newZombie(std::string name);
