@@ -6,7 +6,7 @@
 /*   By: tayamamo <tayamamo@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/10 11:43:52 by tayamamo          #+#    #+#             */
-/*   Updated: 2021/11/10 16:09:34 by tayamamo         ###   ########.fr       */
+/*   Updated: 2021/11/10 16:34:57 by tayamamo         ###   ########.fr       */
 /*   Copyright 2021                                                           */
 /* ************************************************************************** */
 
@@ -18,8 +18,8 @@
 
 class Zombie {
  public:
-    Zombie(std::string name);
     Zombie();
+    Zombie(std::string name);
     ~Zombie();
 
     void announce(void) const;
