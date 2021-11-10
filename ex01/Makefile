@@ -57,8 +57,6 @@ valgrind: re
 
 .PHONY: test
 test: re
-	./$(NAME) "shhhhh... I think the students are asleep..."
-	./$(NAME)  Damnit " ! " "Sorry students, I thought this thing was off."
 	./$(NAME)
 
 .PHONY: source
