@@ -6,7 +6,7 @@
 /*   By: tayamamo <tayamamo@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/10 17:22:55 by tayamamo          #+#    #+#             */
-/*   Updated: 2021/11/10 17:48:20 by tayamamo         ###   ########.fr       */
+/*   Updated: 2021/11/10 20:42:18 by tayamamo         ###   ########.fr       */
 /*   Copyright 2021                                                           */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 class HumanA {
  public:
     HumanA(std::string name, Weapon& weapon);
-    virtual ~HumanA();
+    ~HumanA();
 
     void attack() const;
 
