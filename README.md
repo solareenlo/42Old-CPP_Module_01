@@ -1,5 +1,8 @@
 # 42Old-CPP_Module_01
 
+## ex06
+- switch statement
+
 ## ex05
 - Array of function pointer without if statement
 
