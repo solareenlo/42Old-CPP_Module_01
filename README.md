@@ -1,5 +1,8 @@
 # 42Old-CPP_Module_01
 
+## ex05
+- Array of function pointer without if statement
+
 ## ex04
 - `std::getline`, `string.find`, `std::string::npos`, `string.replace`
 - [クラス fstream を使用したファイル操作](https://docs.oracle.com/cd/E19957-01/805-7889/z4000016dc674/index.html)
